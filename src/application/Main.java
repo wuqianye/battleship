@@ -23,11 +23,10 @@ public class Main extends Application {
 	private Label logContent;
 	private Label ucarrierHP, ubattleshipHP, udestroyerHP, usubmarineHP, upatrolboatHP;
 	private Label ccarrierHP, cbattleshipHP, cdestroyerHP, csubmarineHP, cpatrolboatHP;
-	private ToggleGroup ship;
+	private ToggleGroup ship, direction;
+	private Button place, start;
 	private GridPane uBoard;
 	private static GridPane cBoard;
-	private ToggleGroup direction;
-	private Button place, start;
 	private static HumanPlayer humanPlayer = new HumanPlayer();
 	private static ComputerPlayer computerPlayer = new ComputerPlayer();
 	private String selectedShip;
